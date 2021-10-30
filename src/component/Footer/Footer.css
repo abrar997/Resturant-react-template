@@ -1,0 +1,65 @@
+/* footer */
+footer {
+  margin-top: 100px;
+  border-top: 1px solid gray;
+}
+#button-addon1 {
+  color: rgb(255, 167, 5);
+}
+
+i {
+  color: black;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: black;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+/* h6 */
+footer h6 {
+  color: rgb(255, 167, 5);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* items in  footer */
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(255, 167, 5);
+}
+/* hover */
+footer ul li a:hover {
+  color: gray;
+}
+/* copyright */
+footer .copyright {
+  margin: auto;
+  color: black;
+  text-align: center;
+  margin-top: 80px;
+  word-spacing: 3px;
+}
+footer .copyright span {
+  color: rgb(255, 167, 5);
+}
+/* Code/Mu. */
+footer .logo h1 {
+  margin-top: -1px;
+
+  color: black;
+}
+footer .logo h1 span {
+  color: rgb(255, 167, 5);
+}
+/* pretty img1 */
+footer .image img {
+  position: absolute;
+  left: 0px;
+  width: 20%;
+  margin-top: -300px;
+  margin-left: -150px;
+}

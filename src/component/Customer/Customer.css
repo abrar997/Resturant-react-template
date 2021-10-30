@@ -1,0 +1,51 @@
+/* section */
+.customer {
+  height: 390px;
+  margin-top: 100px;
+}
+/* h1 */
+.customer h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.788);
+  margin-left: 50px;
+  text-align: center;
+}
+/* swipre from swiper js */
+.swiper {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 1px 1px 17px rgb(218, 218, 218);
+  padding: 10px;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+/* slides in swiper */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-flow: column;
+}
+/* imh in swiper */
+.swiper-slide img {
+  display: block;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}

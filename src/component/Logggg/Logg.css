@@ -1,0 +1,46 @@
+/* section */
+.Logg {
+  height: 500px;
+  background-color: green;
+  box-shadow: 1px 1px 18px rgb(230, 228, 228);
+}
+/* h1 */
+.Logg .container .row .text h1 {
+  color: white;
+  margin-top: 160px;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* img */
+.Logg img {
+  width: 80%;
+  margin-left: 30px;
+}
+/* text */
+.Logg .text p {
+  color: white;
+  font-size: 24px;
+  /* text-align: center; */
+}
+/* form  */
+.Logg form {
+  margin: auto;
+}
+/* input */
+.Logg form input {
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  width: 230px;
+  outline: none;
+}
+/* button */
+.Logg form button {
+  background-color: orange;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 20px;
+  border: none;
+}

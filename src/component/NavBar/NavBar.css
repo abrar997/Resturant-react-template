@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-/* main codes in web  */
+
 * {
   font-family: "Courgette", cursive;
   box-sizing: border-box;
   color: black;
 }
-/* nav */
+
 .container nav {
   margin-top: 30px;
 }
-/* brand of resturant */
 .container .navbar-brand {
   font-size: 25px;
   color: black;
@@ -18,39 +17,33 @@
   margin-top: -10px;
   color: wheat;
 }
-/* Mu. */
 
 .container .navbar-brand span {
   color: rgb(255, 167, 5);
   font-weight: 600;
   font-weight: 600;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 nav .navbar-nav {
-  margin-left: 280px;
+  margin-left: 260px;
   font-size: 22px;
   text-transform: capitalize;
   width: 600px;
-  /* box-shadow:inset 10px 30px 18px rgb(231, 229, 229); */
-  text-align: center;
-  /* margin: auto; */
-  border-bottom: 3px solid green;
-  width: 370px;
 }
 nav .navbar-nav .nav-item a {
   color: black;
   margin-left: 5px;
 }
-/* items in nav bar */
+
 nav .navbar-nav .nav-item:hover a {
   /* border-bottom: 2px solid rgb(255, 167, 5); */
-  background-color: orange;
-  color: white;
-  border-radius: 30px;
-  font-size: 20px;
+background-color: orange;
+color: white;
+border-radius: 30px;
+font-size: 20px;
 }
-/* right btn for book now */
+
+
 .navbar-nav .btn {
   background-color: rgb(255, 167, 5);
   color: white;
@@ -71,6 +64,4 @@ nav .navbar-nav .nav-item:hover a {
   background-color: transparent;
   border: 1px solid orange;
 }
-button {
-  outline: none;
-}
+button{outline: none;}

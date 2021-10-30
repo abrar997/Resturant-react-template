@@ -1,15 +1,14 @@
-import React, { Fragment } from "react";
-import Contact from "./component/Contact/Contact";
-import Home from "./component/Home/Home";
-import Menu from "./component/Menu/Menu";
-import Chefs from './component/Chefs/Chefs'
+import React from "react";
+// import Contact from "../Contact/Contact";
+// import Home from "../Home/Home";
+// import Menu from "../Menu/Menu";
+// import Chefs from "../Chefs/Chefs";
 import { Container } from "reactstrap";
-import { Switch, Route } from "react-router";
+// import { Switch, Route } from "react-router";
 import { NavLink, Link, BrowserRouter } from "react-router-dom";
-import "./App.css";
-
-
-const App = () => {
+// import { BrowserRouter as Router } from 'react-router-dom'
+import "./NavBar.css";
+const NAvBar = () => {
   return (
     <>
       <BrowserRouter>
@@ -53,7 +52,33 @@ const App = () => {
                       contact
                     </NavLink>
                   </li>
-
+                  <li className="nav-item dropdown">
+                    <NavLink
+                      className="nav-link dropdown-toggle"
+                      to="/"
+                      id="navbarDropdownMenuLink"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Dropdown link
+                    </NavLink>
+                    <div
+                      className="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                    >
+                      <Link className="dropdown-item" to="/">
+                        Action
+                      </Link>
+                      <Link className="dropdown-item" to="/">
+                        Another action
+                      </Link>
+                      <Link className="dropdown-item" to="/">
+                        Something else here
+                      </Link>
+                    </div>
+                  </li>
                   <div className="btn">book a table </div>
                 </ul>
               </div>
@@ -61,16 +86,16 @@ const App = () => {
           </Container>
         </section>
 
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/Home" component={Home} exact />
-          <Route path="/Menu" component={Menu} exact />
-          <Route path="/Chefs" component={Chefs } exact />
-          <Route path="/Contact" component={Contact} exact />
-        </Switch>
+        {/* <Switch>
+                <Route path="/" component={Home} exact />
+                <Route path="/Home" component={Home} exact />
+                <Route path="/Menu" component={Menu} exact />
+                <Route path="/Chefs" component={Chefs} exact />
+                <Route path="/Contact" component={Contact} exact />
+            </Switch>   */}
       </BrowserRouter>
     </>
   );
 };
 
-export default App;
+export default NAvBar;

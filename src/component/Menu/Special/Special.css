@@ -1,0 +1,21 @@
+.Special .container .row h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.719);
+  margin-top: -10px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.Special {
+  height: 700px;
+}
+.Special .container .row p {
+  color: orange;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 80px;
+  
+}
+

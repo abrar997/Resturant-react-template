@@ -1,0 +1,39 @@
+{
+    "offers": [
+        {
+            "name": "fish meal",
+            "url": "https://www.foodrepublic.com/wp-content/uploads/2017/08/salmonmarsala.jpg",
+            "text": "Adama kind deep gatherin first over fter his great",
+            "price": "$20",
+            "order": "order  now "
+        },
+        {
+            "name": "chicken meal",
+            "url": "https://sodelicious.recipes/wp-content/uploads/2020/06/31.05.2019-R-2-lat-1-Oat-Crusted-Chicken-Breast-with-Tomato-and-Cucumber-Salad-720x380.jpg",
+            "text": "Adama kind deep gatherin first over fter his great",
+            "price": "$20",
+            "order": "order  now "
+        },
+        {
+            "name": "meat meal",
+            "url": "https://realfood.tesco.com/media/images/RFO-1400x919-Jimmys-Steak-for-two-73e9d0dc-02fa-43c3-af20-6a32fc86d1e9-0-1400x919.jpg",
+            "text": "Adama kind deep gatherin first over fter his great",
+            "price": "$20",
+            "order": "order  now "
+        },
+        {
+            "name": "salad meal",
+            "url": "https://www.mealgarden.com/media/recipe/2016/12/bigstock-salad-with-egg-tomato-cucumber-114487136.jpeg",
+            "text": "Adama kind deep gatherin first over fter his great",
+            "price": "$20",
+            "order": "order  now "
+        }
+    ],
+    
+    "chefsInfo":[
+        {"img":"https://preview.colorlib.com/theme/dingo/img/team/xchefs_2.png.pagespeed.ic.Q68oedygCp.webp","name":"mohammed omar","id":"0","phone":"08925424736354","job":"salad chef" },
+        {"img":"https://preview.colorlib.com/theme/dingo/img/team/xchefs_3.png.pagespeed.ic.tkjvq3X2QR.webp","name":"ahmed ali","id":"1","phone":"08925424736354","job":"beef chef" },
+        {"img":"https://preview.colorlib.com/theme/dingo/img/team/xchefs_1.png.pagespeed.ic.Ae8JBjiLY7.webp","name":"bilal Abdullah","id":"2","phone":"08925424736354","job":"sweat chef" }
+    ]
+}
+        

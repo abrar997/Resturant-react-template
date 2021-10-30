@@ -1,0 +1,81 @@
+/* main section */
+.BlogCards {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* h4 */
+.BlogCards h4 {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  color: rgb(255, 167, 5);
+  margin-left: 20px;
+}
+/* h1 */
+.BlogCards h1 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.678);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+/* img */
+.BlogCards .carousel-inner img {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+/* cards */
+.BlogCards .container .row .cards {
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+}
+/* single card */
+.BlogCards .container .row .cards .card {
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 30px;
+}
+.BlogCards .container .row .cards .card:hover {
+  box-shadow: 1px 1px 15px rgb(230, 228, 228);
+  transition: 3;
+  border: none;
+}
+/* link in card */
+.BlogCards .container .row .cards .card a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(255, 167, 5);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.BlogCards .container .row .cards .card .date {
+  color: rgba(0, 0, 0, 0.432);
+  margin-right: 40px;
+}
+
+.BlogCards .container .row .cards .card .morenews {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.BlogCards .container .row .cards .card .morenews {
+  color: rgb(255, 167, 5);
+}
+.BlogCards .container .row .cards .card p {
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.BlogCards .container .row .cards .card button {
+  background-color: rgb(255, 167, 5);
+  width: 130px;
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.BlogCards .container .row .cards .card button:hover {
+  background-color: rgb(212, 139, 12);
+}

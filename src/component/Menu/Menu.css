@@ -1,0 +1,35 @@
+/* sect */
+.menu {
+  margin-top: 130px;
+  /* background-image: url('./MenuImages/2.png'); */
+  background-repeat: no-repeat;
+}
+/* p */
+.menu .text p {
+  color: rgb(255, 167, 5);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.menu .first {
+  display: flex;
+  flex-flow: row;
+  margin-left: 100px;
+}
+/* .menu .first {
+  display: flex;
+  flex-flow: row;
+} */
+.menu .first .text {
+  margin-top: 180px;
+}
+.menu .first h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.719);
+}
+.menu .images img {
+  margin-top: -180px;
+  margin-left: -80px;
+}

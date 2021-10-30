@@ -1,0 +1,46 @@
+/* section */
+.History {
+  margin-top: 190px;
+}
+/* text */
+.History .container .row .text {
+  margin-top: 160px;
+  text-align: center;
+  line-height: 30px;
+}
+/* h5 */
+.History .container .row .text h5 {
+  color: rgb(255, 167, 5);
+  text-transform: capitalize;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* h1 */
+.History .container .row .text h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.699);
+}
+/* h3 */
+.History .container .row .text h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gray;
+  text-transform: capitalize;
+  font-size: 19px;
+}
+/* p */
+.History .container .row .text p {
+  font-weight: 600;
+}
+/* button */
+.History .container .row .text .btn {
+  background-color: rgb(255, 167, 5);
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  width: 140px;
+}
+
+.History .container .row .text .btn:hover {
+  background-color: rgba(255, 168, 5, 0.74);
+}

@@ -1,0 +1,88 @@
+.formaa {
+  background-image: url("./Reservationimage//back.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 860px;
+  height: 900px;
+  margin-top: 100px;
+}
+.formaa h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 50px;
+  color: white;
+  border-bottom: 4px solid rgb(255, 167, 5);
+  width: 80px;
+  padding-bottom: 10px;
+}
+.formaa form {
+  width: 700px;
+  color: white;
+  margin-top: 50px;
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.685);
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 160px;
+}
+
+.form-row {
+  margin-top: 30px;
+}
+.form-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.form-row > div {
+  width: 200px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.formaa form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: auto;
+  height: 30px;
+  margin-top: 10px;
+  outline: none;
+  color: rgb(255, 167, 5);
+}
+
+.formaa form label {
+  color: rgb(224, 219, 219);
+  text-transform: capitalize;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.option select {
+  background: transparent;
+  color: gray;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: auto;
+}
+
+.formaa button {
+  background-color: rgb(255, 167, 5);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: -70px;
+  margin-left: -620px;
+  width: 160px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.formaa button:hover {
+  background: transparent;
+  border: 1px solid gray;
+  color: rgb(255, 167, 5);
+}
+
+.note {
+  margin-top: 60px;
+}

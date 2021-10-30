@@ -1,0 +1,88 @@
+/* main section */
+.contact {
+  height: 700px;
+}
+/* h1 */
+.contact .container .row h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.726);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  margin-top: 30px;
+  line-height: 90px;
+}
+/* h1 a */
+.contact .container .row h1 a {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 44px;
+  margin-top: -10px;
+}
+/* label */
+.form-label {
+  color: orange;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* left div of contact */
+.contact .left {
+  box-shadow: 1px 1px 17px rgba(197, 193, 193, 0.986);
+  /* padding: 60px; */
+  margin-bottom: -50px;
+}
+
+.left .form-control {
+  background-color: #eee;
+  outline: none;
+  border: 2px solid rgb(219, 218, 218);
+  width: 400px;
+}
+/* left form */
+.left form {
+  padding: 50px;
+}
+.left ::placeholder {
+  color: rgb(116, 115, 115);
+}
+/* button */
+.left .btn {
+  background-color: green;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 170px;
+  font-size: 22px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.left .btn:hover {
+  background-color: orange;
+  outline: none;
+}
+
+.contact .right {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.contact .right ul {
+  list-style-type: none;
+}
+/* right items */
+.contact .right ul li {
+  color: black;
+  margin-top: 30px;
+  border-bottom: 1px solid rgb(219, 218, 218);
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.contact .right ul li a {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.contact .right ul li a:hover {
+  color: orange;
+}

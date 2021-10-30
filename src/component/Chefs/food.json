@@ -1,0 +1,30 @@
+[
+    {
+        "img": "https://preview.colorlib.com/theme/dingo/img/team/xchefs_2.png.pagespeed.ic.Q68oedygCp.webp",
+        "name": "mohammed omar",
+        "id": "0",
+        "phone": "08925424736354",
+        "job": "salad chef"
+    },
+    {
+        "img": "https://preview.colorlib.com/theme/dingo/img/team/xchefs_3.png.pagespeed.ic.tkjvq3X2QR.webp",
+        "name": "ahmed ali",
+        "id": "1",
+        "phone": "08925424736354",
+        "job": "beef chef"
+    },
+    {
+        "img": "https://preview.colorlib.com/theme/dingo/img/team/xchefs_1.png.pagespeed.ic.Ae8JBjiLY7.webp",
+        "name": "bilal Abdullah",
+        "id": "2",
+        "phone": "08925424736354",
+        "job": "sweat chef"
+    },
+    {
+        "img": "https://preview.colorlib.com/theme/dingo/img/team/xchefs_2.png.pagespeed.ic.Q68oedygCp.webp",
+        "name": "abdullah alrawi ",
+        "id": "2",
+        "phone": "08925424736354",
+        "job": "sweat chef"
+    }
+]
