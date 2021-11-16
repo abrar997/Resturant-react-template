@@ -1,10 +1,11 @@
 .salad {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   width: 400px;
   margin: auto;
   padding: 5px;
   height: 550px;
   text-align: center;
+  box-shadow: inset 1px 1px 12px orange;
 }
 .salad .container .row .buttons {
   display: flex;
@@ -23,19 +24,20 @@
 
 .salad .container .row .buttons img {
   width: 100px;
-  height: 150px;
+  height: 120px;
   margin-left: 10px;
+  margin-top: 80px;
 }
 .salad .container .row .image {
   width: 300px;
-  height: 500px;
+  height: 480px;
 }
 
 .salad .container .row .image img {
   width: 300px;
   height: 210px;
   margin-left: 25px;
-  margin-top: 5px;
+  margin-top: 25px;
 }
 
 .salad .container .row .image h3 {
@@ -53,4 +55,5 @@
   text-align: center;
   margin-left: 45px;
   background-color: green;
+  height: 20px;
 }

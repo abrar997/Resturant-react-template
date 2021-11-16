@@ -165,7 +165,7 @@ export class Reservation extends Component {
                 />
               </div>
               <button type="submit" className="btn btn-primary">
-                Sign in
+                send 
               </button>
             </form>
           </Container>

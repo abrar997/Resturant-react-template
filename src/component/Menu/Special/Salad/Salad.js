@@ -48,7 +48,7 @@ class Salad extends Component {
                 <h3>{this.state.name} </h3>
                 <p> {this.state.price}</p>
               </div>
-              <div className="col-lg-6 buttons">
+              <div className="col-lg-6 buttons mt-4">
                 <button onClick={this.click1}>
                   <img src={img2} />
                 </button>

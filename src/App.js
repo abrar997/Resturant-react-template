@@ -49,6 +49,11 @@ const App = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item">
+                    <NavLink className="nav-link" to="/Chefs">
+                      Blog
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
                     <NavLink className="nav-link" to="/Contact">
                       contact
                     </NavLink>
